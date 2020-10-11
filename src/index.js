@@ -36,8 +36,8 @@ async function bootstrap() {
         await TypeORM.createConnection({
             type: "mysql",
             database: "bookstore",
-            username: "worker",
-            password: "Kobdikov144",
+            username: "<username>",
+            password: "<password>",
             port: 3306,
             host: "localhost",
             entities: [author_1.Author, book_1.Book],
