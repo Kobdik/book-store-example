@@ -1,0 +1,63 @@
+mutation newBook($input: BookInput!){
+  addBook(book: $input){
+    name
+    pageCount
+    author{
+      name
+    }
+  }
+}
+
+{
+  "input": {
+    "bookId": 105,
+    "name": "Лживые боги",
+    "pageCount": 270,
+    "authorId": 3
+  }
+}
+
+{
+  "input": {
+    "bookId": 101,
+    "name": "Возвышение Хоруса",
+    "pageCount": 300
+    "authorId": 1
+  }
+}
+
+{
+  "input": {
+    "bookId": 102,
+    "name": "Битва за бездну",
+    "pageCount": 280,
+    "authorId": 2
+  }
+}
+
+{
+  "input": {
+    "bookId": 103,
+    "name": "Легион",
+    "pageCount": 320,
+    "authorId": 1
+  }
+}
+
+{
+  "input": {
+    "bookId": 104,
+    "name": "Галактика в огне",
+    "pageCount": 250,
+    "authorId": 2
+  }
+}
+
+{
+  "input": {
+    "bookId": 105,
+    "name": "Лживые боги",
+    "pageCount": 270,
+    "authorId": 3
+  }
+}

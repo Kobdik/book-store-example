@@ -1,0 +1,49 @@
+{
+  "data": {
+    "authors": [
+      {
+        "authorId": "1",
+        "name": "Dan Abnett",
+        "books": [
+          {
+            "bookId": "101",
+            "name": "Возвышение Хоруса",
+            "pageCount": 300
+          },
+          {
+            "bookId": "103",
+            "name": "Легион",
+            "pageCount": 320
+          }
+        ]
+      },
+      {
+        "authorId": "2",
+        "name": "Ben Counter",
+        "books": [
+          {
+            "bookId": "102",
+            "name": "Битва за бездну",
+            "pageCount": 280
+          },
+          {
+            "bookId": "104",
+            "name": "Галактика в огне",
+            "pageCount": 250
+          }
+        ]
+      },
+      {
+        "authorId": "3",
+        "name": "Graham McNeill",
+        "books": [
+          {
+            "bookId": "105",
+            "name": "Лживые боги",
+            "pageCount": 270
+          }
+        ]
+      }
+    ]
+  }
+}

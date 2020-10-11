@@ -1,0 +1,27 @@
+mutation newAuthor($input: AuthorInput!){
+  addAuthor(author: $input){
+    authorId
+    name
+  }
+}
+
+{
+  "input": {
+    "authorId": 1,
+    "name": "Dan Abnett"
+  }
+}
+
+{
+  "input": {
+    "authorId": 2,
+    "name": "Ben Counter"
+  }
+}
+
+{
+  "input": {
+    "authorId": 3,
+    "name": "Graham McNeill"
+  }
+}
