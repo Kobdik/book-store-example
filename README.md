@@ -1,4 +1,5 @@
 # book-store-example
+![Шарик](./egg.svg)
 
 Пример использования `TypeGraphQL` на примере схемы:
 ```
